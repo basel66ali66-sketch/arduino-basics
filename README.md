@@ -6,11 +6,13 @@ Five beginner Arduino experiments built and simulated in [Tinkercad Circuits](ht
 
 | # | Experiment | Concepts |
 |---|------------|----------|
-| 01 | Blink | Digital output, `pinMode`, `digitalWrite`, `delay` |
-| 02 | Button-controlled LED | Digital input, pull-down resistor, `digitalRead`, `if/else` |
-| 03 | Potentiometer readout | Analog input, ADC (0-1023), `Serial`, voltage divider |
-| 04 | PWM brightness control | PWM output (0-255), `analogWrite`, `map` |
-| 05 | Light sensor | Sensor input, LDR voltage divider, analog reading |
+| 01 | [Blink](experiments/01-blink/) | Digital output, `pinMode`, `digitalWrite`, `delay` |
+| 02 | [Button-controlled LED](experiments/02-button-led/) | Digital input, pull-down resistor, `digitalRead`, `if/else` |
+| 03 | [Potentiometer readout](experiments/03-potentiometer/) | Analog input, ADC (0-1023), `Serial`, voltage divider |
+| 04 | [PWM brightness control](experiments/04-pwm-brightness/) | PWM output (0-255), `analogWrite`, `map` |
+| 05 | [Light sensor](experiments/05-light-sensor/) | Sensor input, LDR voltage divider, analog reading |
+
+Each folder holds the sketch (`.ino`) and a README with the wiring and what the experiment shows.
 
 ## Hardware
 
